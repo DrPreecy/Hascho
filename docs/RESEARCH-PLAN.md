@@ -33,6 +33,9 @@ Research domains:
 - product and project management;
 - software product development and operations;
 - human-AI collaboration and agentic workflows;
+- agent guidance interfaces, implementation planning, suggested actions, prompt launchers, work queues, handoffs, and resumability;
+- AI-assisted software quality and anti-vibe-coding guardrails;
+- curriculum and competency maps only as thematic coverage references, not assumed product features;
 - provenance, decision records, and versioned state.
 
 For each approach record:
