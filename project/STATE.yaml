@@ -1,0 +1,43 @@
+schema_version: 1
+project:
+  name: Hascho
+  purpose: Design a universal project-local Idea-to-Business Workbench
+  owner_role: Project Owner
+  repository_role: conception workspace and future reusable template source
+
+status:
+  stage: CONCEPTION
+  activity: PLAN_REVIEW
+  gate: R0
+  condition: waiting_for_human_approval
+  software_implementation_authorized: false
+  tech_stack_authorized: false
+
+current_context:
+  question: Is the research and conception plan complete, proportional, and ready to approve?
+  last_event: Repository bootstrap created from the original product brief
+  next_action: Copilot reviews and presents a revised research and conception plan for approval
+  resume_instruction: Read AGENTS.md and docs/START-HERE.md, then execute the next action without implementing software
+
+approved_decisions:
+  - id: DEC-001
+    summary: The system is human-led and AI-supported
+  - id: DEC-002
+    summary: The future workbench is project-local, not one central interface for all projects
+
+provisional_directions:
+  - id: DIR-001
+    summary: Adaptive Project Workbench
+  - id: DIR-002
+    summary: Visual Control Room as the primary orientation concept, with specialized views for other questions
+  - id: DIR-003
+    summary: File-backed, provider-independent durable project state
+
+open_blockers:
+  - Research and conception plan has not yet been approved
+
+authoritative_files:
+  - docs/PRODUCT-BRIEF.md
+  - docs/RESEARCH-PLAN.md
+  - docs/DELIVERABLES-AND-GATES.md
+  - project/DECISIONS.md

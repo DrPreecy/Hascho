@@ -1,0 +1,1 @@
+Read AGENTS.md, docs/START-HERE.md, and project/STATE.yaml. Reconstruct the current project state without relying on prior chat. Report the current stage, gate, question, approved decisions, provisional directions, blockers, and next action. Then perform only the next action allowed by the active gate. Stop for the Project Owner whenever approval is required.
