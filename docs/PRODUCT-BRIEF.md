@@ -80,6 +80,36 @@ The user should always be able to see:
 
 Investigate quick capture, mobile and voice use, low-energy and deep-work modes, focus, resumability, progressive disclosure, contradiction detection, duplicate-work prevention, related insight connections, and comprehensible progress.
 
+## Transformation structure
+
+The Project Owner values a clear, visible transformation with an understandable sequence of major steps. The workbench should make movement from an early thought to a real outcome comprehensible.
+
+The sequence must be universalized rather than copied from one industry. It should provide orientation, inputs, outputs, gates, and return paths while allowing project-specific modules, parallel work, iteration, pausing, and termination. A sequence is an orientation spine, not a rigid wizard.
+
+## Software-project thematic coverage
+
+When a project contains software, the system should help consider relevant areas such as browser and language fundamentals, developer workflow, backend and domain logic, data modeling, frontend and full-stack behavior, testing, security, systems, architecture, delivery and reliability, AI engineering, and product engineering.
+
+The supplied software roadmap is a thematic reference only. It must not become a learning tracker, mandatory curriculum, fixed stage order, or requirement that every software project use every topic. Coverage is selected by actual scope, dependencies, risk, and architecture.
+
+## Guidance-layer quality of life
+
+Quality of life includes an active but human-controlled guidance layer:
+
+- visible research, validation, project, implementation, review, or launch plans when relevant;
+- context-aware next actions;
+- optional prompt and action suggestions;
+- clearly differentiated to-dos, questions, decisions, assumptions, experiments, risks, and reviews;
+- agent scope and activity visibility;
+- easy handoff, pause, and resume;
+- verification guidance and evidence-backed completion.
+
+Generated plans and prompts are proposals and conveniences, not hidden decisions or durable state by themselves.
+
+## Responsible AI-assisted implementation
+
+Software modules require proportional anti-vibe-coding safeguards: intent before code, repository inspection, bounded plans, understandable changes, explicit architecture decisions, real verification, security and data-integrity checks, honest uncertainty, and human approval at consequential or external boundaries.
+
 ## Candidate knowledge objects
 
 Research before finalizing relationships among Project, Idea, Thread, Question, Assumption, Evidence, Source, Insight, Hypothesis, Experiment, Alternative, Decision, Risk, Requirement, Task, Artifact, Metric, Milestone, and Gate.
