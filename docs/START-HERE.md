@@ -28,7 +28,7 @@ It does not yet contain a final method, product architecture, software architect
 
 ## Current next action
 
-Copilot should review docs/RESEARCH-PLAN.md against docs/PRODUCT-BRIEF.md, identify omissions or unnecessary work, and present a concise revised plan to the Project Owner.
+Copilot should review docs/RESEARCH-PLAN.md against docs/PRODUCT-BRIEF.md, docs/REFERENCE-INPUTS.md, docs/QUALITY-OF-LIFE.md, and docs/ANTI-VIBE-CODING.md; identify omissions or unnecessary work; and present a concise revised plan to the Project Owner.
 
 The response must include:
 
