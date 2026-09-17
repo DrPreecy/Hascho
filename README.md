@@ -32,6 +32,9 @@ Start with [docs/START-HERE.md](docs/START-HERE.md).
 | [docs/PRODUCT-BRIEF.md](docs/PRODUCT-BRIEF.md) | Authoritative product intent and boundaries |
 | [docs/WORKING-MODEL.md](docs/WORKING-MODEL.md) | Current hypotheses for the adaptive workbench |
 | [docs/RESEARCH-PLAN.md](docs/RESEARCH-PLAN.md) | Plan Copilot must refine and present for approval |
+| [docs/REFERENCE-INPUTS.md](docs/REFERENCE-INPUTS.md) | Interpretation of the supplied process and software references |
+| [docs/QUALITY-OF-LIFE.md](docs/QUALITY-OF-LIFE.md) | Guidance-layer, planning, to-do, prompt, and resume requirements |
+| [docs/ANTI-VIBE-CODING.md](docs/ANTI-VIBE-CODING.md) | Candidate safeguards for responsible AI-assisted software work |
 | [docs/DELIVERABLES-AND-GATES.md](docs/DELIVERABLES-AND-GATES.md) | Required outputs and approval gates |
 | [project/STATE.yaml](project/STATE.yaml) | Machine-readable current project state |
 | [project/DECISIONS.md](project/DECISIONS.md) | Human-approved decisions and provisional directions |
