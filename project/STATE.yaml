@@ -24,6 +24,14 @@ approved_decisions:
     summary: The system is human-led and AI-supported
   - id: DEC-002
     summary: The future workbench is project-local, not one central interface for all projects
+  - id: DEC-003
+    summary: Provide a clear universal transformation sequence with adaptable content and return paths
+  - id: DEC-004
+    summary: Use the software roadmap only as thematic orientation for relevant software projects
+  - id: DEC-005
+    summary: Quality of life includes visible plans, next actions, differentiated to-dos, prompt suggestions, and resume support
+  - id: DEC-006
+    summary: Software modules require proportional anti-vibe-coding safeguards
 
 provisional_directions:
   - id: DIR-001
@@ -39,5 +47,8 @@ open_blockers:
 authoritative_files:
   - docs/PRODUCT-BRIEF.md
   - docs/RESEARCH-PLAN.md
+  - docs/REFERENCE-INPUTS.md
+  - docs/QUALITY-OF-LIFE.md
+  - docs/ANTI-VIBE-CODING.md
   - docs/DELIVERABLES-AND-GATES.md
   - project/DECISIONS.md
