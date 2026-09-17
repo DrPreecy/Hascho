@@ -12,6 +12,11 @@ Only questions whose answers can materially change the result belong here.
 ## Later gates
 
 - What is the smallest truly universal core?
+- What is the best universal transformation spine, and which parts belong in optional modules?
+- How can the system use software topic coverage to expose important omissions without becoming a checklist-driven curriculum?
+- Which guidance-layer elements belong in every project, and which only in software implementation?
+- How should suggested prompts remain understandable and provider-independent?
+- Which anti-vibe-coding rules are universal, risk-triggered, or software-specific?
 - Which module activation rules are understandable and testable?
 - How should a project-local workbench receive updates to its universal base without overwriting local decisions and state?
 - What state must be machine-readable, human-readable, or both?
