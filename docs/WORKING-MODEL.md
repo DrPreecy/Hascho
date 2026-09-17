@@ -46,6 +46,33 @@ The desired distribution model is analogous to a file-backed workflow overlay:
 
 This is a product direction, not yet a decided packaging mechanism.
 
+## Transformation spine
+
+A likely top-level orientation is a transformation spine: an understandable sequence from initial input to real-world outcome. It should communicate where the project is, what must become true next, and how work can loop back.
+
+The spine must not contain industry-specific content and must not absorb all work into one linear status. Modules and work loops attach to it according to need.
+
+## Software coverage reference
+
+For software-containing projects, the supplied Software Engineering Roadmap acts as a thematic inventory. The system may use it to challenge omissions during planning or review, but not as a curriculum, progress tracker, or mandatory numbered sequence.
+
+## Guidance layer
+
+A likely cross-cutting layer provides:
+
+- current context and next action;
+- visible plan appropriate to the active work;
+- differentiated work queue;
+- suggested actions and optional provider-independent prompts;
+- agent activity, approvals, checks, and results;
+- handoff and resume support.
+
+This layer helps the Project Owner navigate work. It must not make decisions or turn recommendations into actions without the required approval.
+
+## Anti-vibe-coding guardrails
+
+When a software module is active, proportional guardrails should connect intent, requirements, implementation planning, architecture decisions, testing, security, review, and evidence. Candidate rules are in docs/ANTI-VIBE-CODING.md and remain subject to research and review.
+
 ## Visual Control Room
 
 The preferred orientation experience is a visual Control Room showing current context, evidence health, decision pressure, open threads, risks, and next action.
