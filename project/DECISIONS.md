@@ -68,6 +68,15 @@ Review gate: R3/R4
 
 A visual Control Room should make current context, open work, evidence, decisions, risk, and next actions understandable. It will coexist with task-specific views and must not become the canonical data model.
 
+## DEC-007 — Research and conception plan approved at Gate R0
+
+Status: Decided  
+Scope: Project-wide
+
+The revised research and conception plan in `/home/runner/work/Hascho/Hascho/docs/RESEARCH-PLAN.md` is approved as the governing plan for the research phase.
+
+Rationale: The plan is explicit about proportionality, source strategy, comparison criteria, gate outputs, visual deliverables, and Project Owner decision points, while keeping implementation architecture out of scope until a later explicit gate.
+
 ## Pending
 
-The research and conception plan requires explicit approval at Gate R0.
+No pending decision remains at Gate R0.

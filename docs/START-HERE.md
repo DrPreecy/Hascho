@@ -28,19 +28,18 @@ It does not yet contain a final method, product architecture, software architect
 
 ## Current next action
 
-Copilot should review docs/RESEARCH-PLAN.md against docs/PRODUCT-BRIEF.md, docs/REFERENCE-INPUTS.md, docs/QUALITY-OF-LIFE.md, and docs/ANTI-VIBE-CODING.md; identify omissions or unnecessary work; and present a concise revised plan to the Project Owner.
+Copilot should execute Stage 2 of `/home/runner/work/Hascho/Hascho/docs/RESEARCH-PLAN.md`: gather and synthesize sourced findings that can shape the universal workbench without freezing architecture too early.
 
-The response must include:
+The work should:
 
-- stages and outputs;
-- research domains and source strategy;
-- decision points requiring the Project Owner;
-- how alternatives will be compared;
-- how visual deliverables will be produced;
-- how progress and uncertainty will remain visible;
-- an explicit request to approve or amend the plan.
+- follow the approved source strategy and proportionality rule;
+- prioritize primary sources, scientific work, official documentation, and maintainer materials;
+- separate external findings, interpretation, and recommendation;
+- record sources, supported claims, limitations, and confidence in `/home/runner/work/Hascho/Hascho/project/RESEARCH-LOG.md`;
+- surface tensions, gaps, and open questions relevant to Gate R1;
+- avoid implementation architecture, stack selection, and software building.
 
-After approval, record it as a decision and change the project state from PLAN_REVIEW to RESEARCH.
+The next Project Owner review point is Gate R1, after a research synthesis exists.
 
 ## Do not do yet
 

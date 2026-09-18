@@ -7,17 +7,17 @@ project:
 
 status:
   stage: CONCEPTION
-  activity: PLAN_REVIEW
-  gate: R0
-  condition: waiting_for_human_approval
+  activity: RESEARCH
+  gate: R1
+  condition: research_in_progress
   software_implementation_authorized: false
   tech_stack_authorized: false
 
 current_context:
-  question: Is the research and conception plan complete, proportional, and ready to approve?
-  last_event: User reference inputs clarified transformation sequence, software thematic coverage, guidance-layer quality of life, and anti-vibe-coding requirements
-  next_action: Copilot reviews and presents a revised research and conception plan for approval
-  resume_instruction: Read AGENTS.md and docs/START-HERE.md, then execute the next action without implementing software
+  question: What sourced findings, tensions, and gaps should shape the universal workbench during Stage 2 research?
+  last_event: Project Owner approved the revised research and conception plan at Gate R0
+  next_action: Execute Stage 2 research synthesis using the approved plan and record sourced findings in project/RESEARCH-LOG.md
+  resume_instruction: Read AGENTS.md, docs/START-HERE.md, and the approved research plan, then begin Stage 2 research without implementing software
 
 approved_decisions:
   - id: DEC-001
@@ -32,6 +32,8 @@ approved_decisions:
     summary: Quality of life includes visible plans, next actions, differentiated to-dos, prompt suggestions, and resume support
   - id: DEC-006
     summary: Software modules require proportional anti-vibe-coding safeguards
+  - id: DEC-007
+    summary: The revised research and conception plan is approved as the basis for the research phase
 
 provisional_directions:
   - id: DIR-001
@@ -41,8 +43,7 @@ provisional_directions:
   - id: DIR-003
     summary: File-backed, provider-independent durable project state
 
-open_blockers:
-  - Research and conception plan has not yet been approved
+open_blockers: []
 
 authoritative_files:
   - docs/PRODUCT-BRIEF.md
