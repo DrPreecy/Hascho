@@ -73,7 +73,7 @@ A visual Control Room should make current context, open work, evidence, decision
 Status: Decided  
 Scope: Project-wide
 
-The revised research and conception plan in `/home/runner/work/Hascho/Hascho/docs/RESEARCH-PLAN.md` is approved as the governing plan for the research phase.
+The revised research and conception plan in `docs/RESEARCH-PLAN.md` is approved as the governing plan for the research phase.
 
 Rationale: The plan is explicit about proportionality, source strategy, comparison criteria, gate outputs, visual deliverables, and Project Owner decision points, while keeping implementation architecture out of scope until a later explicit gate.
 

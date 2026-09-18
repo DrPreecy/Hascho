@@ -34,11 +34,11 @@ Current question: What sourced findings, tensions, and gaps should shape the uni
 
 ## Files to read first
 
-- `/home/runner/work/Hascho/Hascho/AGENTS.md`
-- `/home/runner/work/Hascho/Hascho/docs/START-HERE.md`
-- `/home/runner/work/Hascho/Hascho/project/STATE.yaml`
-- `/home/runner/work/Hascho/Hascho/project/DECISIONS.md`
-- `/home/runner/work/Hascho/Hascho/docs/RESEARCH-PLAN.md`
+- `AGENTS.md`
+- `docs/START-HERE.md`
+- `project/STATE.yaml`
+- `project/DECISIONS.md`
+- `docs/RESEARCH-PLAN.md`
 
 ## Staleness warning
 

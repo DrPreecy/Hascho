@@ -28,14 +28,14 @@ It does not yet contain a final method, product architecture, software architect
 
 ## Current next action
 
-Copilot should execute Stage 2 of `/home/runner/work/Hascho/Hascho/docs/RESEARCH-PLAN.md`: gather and synthesize sourced findings that can shape the universal workbench without freezing architecture too early.
+Copilot should execute Stage 2 of `docs/RESEARCH-PLAN.md`: gather and synthesize sourced findings that can shape the universal workbench without freezing architecture too early.
 
 The work should:
 
 - follow the approved source strategy and proportionality rule;
 - prioritize primary sources, scientific work, official documentation, and maintainer materials;
 - separate external findings, interpretation, and recommendation;
-- record sources, supported claims, limitations, and confidence in `/home/runner/work/Hascho/Hascho/project/RESEARCH-LOG.md`;
+- record sources, supported claims, limitations, and confidence in `project/RESEARCH-LOG.md`;
 - surface tensions, gaps, and open questions relevant to Gate R1;
 - avoid implementation architecture, stack selection, and software building.
 
