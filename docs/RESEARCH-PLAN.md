@@ -306,7 +306,9 @@ Reliable research should answer researchable questions before these decisions ar
 
 ## Approval status
 
-Approved by the Project Owner at Gate R0.
+Current status for this version: approved by the Project Owner at Gate R0 on 2026-09-18.
+
+If this document is materially amended later, the amended version must be re-reviewed and explicitly re-approved before it becomes authoritative.
 
 Next step:
 
