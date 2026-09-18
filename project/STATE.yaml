@@ -43,7 +43,8 @@ provisional_directions:
   - id: DIR-003
     summary: File-backed, provider-independent durable project state
 
-open_blockers: []
+open_blockers:
+  - Implementation architecture and software building remain out of scope until explicit authorization at Gate R6
 
 authoritative_files:
   - docs/PRODUCT-BRIEF.md
