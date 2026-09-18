@@ -16,6 +16,8 @@ Only questions whose answers can materially change the result belong here.
 - How can the system use software topic coverage to expose important omissions without becoming a checklist-driven curriculum?
 - Which guidance-layer elements belong in every project, and which only in software implementation?
 - How should suggested prompts remain understandable and provider-independent?
+- What project, thread, or activity scope is most understandable for selecting and switching collaboration modes?
+- What cues should recommend a change among Auto, Co-work, and Co-design without making the choice automatic?
 - Which anti-vibe-coding rules are universal, risk-triggered, or software-specific?
 - Which module activation rules are understandable and testable?
 - How should a project-local workbench receive updates to its universal base without overwriting local decisions and state?

@@ -14,9 +14,9 @@ status:
   tech_stack_authorized: false
 
 current_context:
-  question: Is the research and conception plan complete, proportional, and ready to approve?
-  last_event: User reference inputs clarified transformation sequence, software thematic coverage, guidance-layer quality of life, and anti-vibe-coding requirements
-  next_action: Copilot reviews and presents a revised research and conception plan for approval
+  question: Is the revised research and conception plan, including switchable collaboration modes, complete, proportional, and ready to approve?
+  last_event: Project Owner required collaboration to include switchable Auto, Co-work, and Co-design modes
+  next_action: Copilot presents the revised research and conception plan for approval
   resume_instruction: Read AGENTS.md and docs/START-HERE.md, then execute the next action without implementing software
 
 approved_decisions:
@@ -32,6 +32,8 @@ approved_decisions:
     summary: Quality of life includes visible plans, next actions, differentiated to-dos, prompt suggestions, and resume support
   - id: DEC-006
     summary: Software modules require proportional anti-vibe-coding safeguards
+  - id: DEC-007
+    summary: Support switchable Auto, Co-work, and Co-design collaboration modes without weakening human approval boundaries
 
 provisional_directions:
   - id: DIR-001

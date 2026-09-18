@@ -2,7 +2,7 @@
 
 ## DEC-001 — Human-led, AI-supported
 
-Status: Decided  
+Status: Decided
 Scope: Project-wide
 
 The human Project Owner makes material decisions. AI explains, researches, challenges, connects, recommends, and helps execute approved work. Assumptions must not be hidden in plans, concepts, or code.
@@ -53,6 +53,15 @@ Scope: Software project modules
 AI-assisted implementation must connect intent, a proportional implementation plan, understandable code, architecture decisions, security, testing, review, and evidence. The system must not equate generated code or a successful build with a trustworthy result.
 
 Rationale: AI speed should not hide poor understanding, unverified behavior, accidental architecture, or security risk.
+
+## DEC-007 — Switchable collaboration modes
+
+Status: Decided
+Scope: Interaction model
+
+The future workbench must support explicitly switchable Auto, Co-work, and Co-design modes at an appropriate project, thread, or activity scope. Auto permits only bounded and reversible AI-led work with a traceable report; Co-work supports jointly steered task completion; Co-design supports iterative joint shaping before a recommendation. Switching modes changes collaboration cadence and initiative, not human ownership, approval boundaries, provenance, safety controls, or durable-state requirements.
+
+Rationale: The Project Owner needs both pre-structured AI assistance and genuine participation in forming concepts and choices. A visible, switchable mode prevents either collaboration style from being silently imposed.
 
 ## DIR-001 — Adaptive Project Workbench
 

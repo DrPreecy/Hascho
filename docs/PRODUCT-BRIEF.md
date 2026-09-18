@@ -31,6 +31,16 @@ The Project Owner decides. AI may explain, research, connect, challenge, generat
 
 Consequential decisions require a visible question, evidence, options, trade-offs, recommendation, uncertainty, human choice, and recorded rationale.
 
+## Collaboration modes
+
+The workbench must let the Project Owner explicitly switch the working relationship for the current activity, thread, or project without changing the durable meaning of its artifacts:
+
+- **Auto:** AI independently performs bounded, reversible preparation or execution, then reports its scope, sources, assumptions, results, checks, and remaining uncertainty.
+- **Co-work:** the Project Owner and AI work through a defined task together, with the AI proposing bounded next steps and the Project Owner steering the work as it progresses.
+- **Co-design:** the Project Owner and AI iteratively shape the problem, options, artifacts, and recommendation together before a direction is proposed for decision.
+
+Mode selection controls collaboration cadence and initiative; it does not grant hidden authority. Material decisions, unapproved scope expansion, destructive or external actions, and irreversible changes remain subject to the applicable human approval boundary in every mode. The system must show the active mode and make switching understandable and easy.
+
 ## Adaptive rather than linear
 
 The design must show:

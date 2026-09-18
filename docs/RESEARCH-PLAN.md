@@ -12,6 +12,7 @@ Outputs:
 - source-quality and confidence criteria;
 - architecture comparison criteria;
 - definition of proportional depth;
+- collaboration-mode definitions, switching boundaries, and non-negotiable approval rules;
 - review cadence and decision gates.
 
 Gate R0: Project Owner approves the plan.
@@ -33,6 +34,7 @@ Research domains:
 - product and project management;
 - software product development and operations;
 - human-AI collaboration and agentic workflows;
+- co-design, co-work, and bounded autonomous-work patterns, including handoff and interruption behavior;
 - agent guidance interfaces, implementation planning, suggested actions, prompt launchers, work queues, handoffs, and resumability;
 - AI-assisted software quality and anti-vibe-coding guardrails;
 - curriculum and competency maps only as thematic coverage references, not assumed product features;
@@ -63,6 +65,7 @@ Clarify:
 - minimum useful core;
 - optional module triggers;
 - what requires external expertise.
+- when Auto, Co-work, or Co-design is appropriate and when a mode switch is needed.
 
 Output: scenario set and architecture drivers.
 
@@ -78,6 +81,7 @@ Create at least three coherent alternatives. Each must specify:
 - visual model;
 - adaptation mechanism;
 - governance and approval boundaries;
+- collaboration-mode behavior, visibility, and switching;
 - strengths, weaknesses, risks, and complexity.
 
 Compare against agreed criteria. Preserve rejected options and rationale.
@@ -94,6 +98,7 @@ Develop the chosen direction into:
 - evidence, assumption, and decision model;
 - continuity and quality-of-life behavior;
 - role and automation model;
+- collaboration-mode model, including Auto, Co-work, Co-design, and escalation to the Project Owner;
 - visualization system;
 - measurement, risk, security, and governance.
 

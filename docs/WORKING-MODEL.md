@@ -69,6 +69,16 @@ A likely cross-cutting layer provides:
 
 This layer helps the Project Owner navigate work. It must not make decisions or turn recommendations into actions without the required approval.
 
+## Collaboration modes
+
+The workbench should support three switchable collaboration modes:
+
+1. **Auto:** AI completes an explicitly bounded and reversible activity independently, then provides a traceable report.
+2. **Co-work:** human and AI complete a defined activity together through ongoing steering.
+3. **Co-design:** human and AI iteratively form the problem, options, and artifacts before a recommendation is presented.
+
+The selected mode changes the collaboration cadence, not the ownership model. Approval, provenance, security, and escalation requirements remain invariant. The exact default rules, scope level, and interface remain research questions.
+
 ## Anti-vibe-coding guardrails
 
 When a software module is active, proportional guardrails should connect intent, requirements, implementation planning, architecture decisions, testing, security, review, and evidence. Candidate rules are in docs/ANTI-VIBE-CODING.md and remain subject to research and review.

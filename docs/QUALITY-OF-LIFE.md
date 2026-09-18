@@ -90,6 +90,16 @@ When an agent is working, show or record:
 - checks performed;
 - result and remaining uncertainty.
 
+## Collaboration modes
+
+The Project Owner can select and switch the collaboration mode for a project, thread, or activity:
+
+- **Auto** for bounded AI-led preparation or execution with a complete report back;
+- **Co-work** for shared task completion with frequent steering;
+- **Co-design** for iterative shaping of choices, concepts, and artifacts before recommendation.
+
+The active mode must be visible. Switching mode changes the cadence of collaboration, not the approval, provenance, safety, or durable-state requirements. A mode must never make a material decision, scope expansion, destructive action, or external action automatic.
+
 ## State language
 
 The interface must distinguish captured, explored, researched, supported, decided, planned, implemented, verified, operated, and measured. Activity alone is not progress.
@@ -102,3 +112,4 @@ The interface must distinguish captured, explored, researched, supported, decide
 - Which plan types can share a common structure?
 - How should the system recommend work without creating an autopilot?
 - Which agent activity is valuable to expose without overwhelming the user?
+- Which mode defaults and switching cues reduce friction without obscuring responsibility?
