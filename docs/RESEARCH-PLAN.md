@@ -1,145 +1,309 @@
-# Research and conception plan — draft for approval
+# Research and conception plan — revised draft for Gate R0 approval
 
 ## Purpose
 
-Produce a defensible method and product concept before designing implementation architecture. Research must inform choices without turning the repository into an academic archive.
+Produce an approved, evidence-backed conception package for the future project-local workbench before any implementation architecture, stack selection, or software building begins.
+
+This plan exists to answer one question at Gate R0:
+
+- Is the proposed research and conception work complete enough, proportional enough, and structured well enough to approve?
+
+## What this plan will and will not do
+
+This plan will:
+
+- define the research scope;
+- define how evidence will be gathered and compared;
+- define the outputs required at each gate;
+- define which decisions belong to the Project Owner;
+- define how progress, uncertainty, and alternatives stay visible.
+
+This plan will not:
+
+- implement software;
+- choose a technology stack;
+- finalize the product architecture;
+- finalize the data or object model;
+- assume the workbench is only for startups or software products;
+- turn conception into a rigid fixed-phase checklist.
+
+Research execution starts only after this plan is approved.
+
+## Proportionality rule
+
+Research must stay broad enough to support a universal workbench, but narrow enough to avoid academic sprawl or premature design.
+
+The standard for inclusion is practical value to one or more of these questions:
+
+- How should the workbench guide a project from early thought to real outcome?
+- What must remain universal versus optional?
+- How should evidence, decisions, uncertainty, and resume state be represented?
+- How should a human-led guidance layer help without becoming autopilot?
+- What guardrails are needed when software work is active?
+
+If a research area does not materially improve a decision, reduce uncertainty, expose risk, or clarify a design boundary, it should be reduced or removed.
 
 ## Stage 1 — Plan and evaluation frame
 
+Purpose:
+
+- confirm the research questions;
+- confirm the evidence standard;
+- confirm the comparison criteria;
+- confirm the required outputs and gates.
+
 Outputs:
 
-- approved research questions;
-- source-quality and confidence criteria;
-- architecture comparison criteria;
-- definition of proportional depth;
-- review cadence and decision gates.
+- approved research domains;
+- approved source strategy;
+- approved comparison criteria;
+- approved stage outputs and review cadence;
+- explicit note that implementation architecture remains out of scope.
 
-Gate R0: Project Owner approves the plan.
+Project Owner decision at Gate R0:
 
-## Stage 2 — Broad research and pattern scan
+- approve this plan as written;
+- approve it with amendments;
+- reject it and request reduction or restructuring.
+
+## Stage 2 — Research synthesis
+
+Purpose:
+
+- gather and synthesize evidence from relevant disciplines and pattern sources;
+- identify useful mechanisms, tensions, blind spots, and limitations;
+- avoid copying any one framework or product wholesale.
 
 Research domains:
 
-- innovation management and venture building;
-- Design Thinking and Service Design;
-- Product Discovery and Continuous Discovery;
-- Lean Startup and Customer Development;
-- Jobs to Be Done;
-- systems thinking and decision science;
-- knowledge management and personal knowledge management;
-- HCI, cognitive load, information architecture, and resumability;
-- voice-first capture and mobile interaction;
-- experimentation and evidence evaluation;
-- product and project management;
-- software product development and operations;
-- human-AI collaboration and agentic workflows;
-- agent guidance interfaces, implementation planning, suggested actions, prompt launchers, work queues, handoffs, and resumability;
-- AI-assisted software quality and anti-vibe-coding guardrails;
-- curriculum and competency maps only as thematic coverage references, not assumed product features;
-- provenance, decision records, and versioned state.
+- process and transformation methods for moving from idea to outcome;
+- decision quality, uncertainty handling, and evidence discipline;
+- knowledge organization, provenance, invalidation, and durable project state;
+- resumability, continuity, and low-friction handoff;
+- mobile capture and voice-to-text intake;
+- HCI, cognitive load, information architecture, and progressive disclosure;
+- guidance-layer behavior, next-action support, and reviewable planning;
+- visual reasoning and multi-view project understanding;
+- project-local versus reusable framework boundaries;
+- human-AI collaboration, agent boundaries, and approval controls;
+- AI-assisted software planning, verification, security, and anti-vibe-coding safeguards;
+- software topic coverage as a relevance filter for software-containing projects only.
 
-For each approach record:
+Source strategy:
+
+- prefer primary sources, scientific literature, official documentation, and maintainer materials;
+- use products and open-source repositories as pattern references, not proof of fit;
+- record source, access date, supported claim, limitations, and confidence;
+- separate sourced findings from project interpretation and recommendation.
+
+For each researched approach or pattern, record:
 
 - original problem and intended context;
 - useful mechanism;
+- strengths;
 - limitations and failure modes;
 - compatibility or tension with other approaches;
-- adaptation needed for a solo learning Project Owner.
+- adaptation required for this repository's goals.
 
-Also scan relevant tools and open-source repositories. Treat them as evidence of patterns, not proof of fit.
+Output for Gate R1:
 
-Output: sourced research synthesis, not a link dump.
-
-Gate R1: Project Owner reviews key findings, tensions, and missing evidence.
+- a sourced synthesis with findings, tensions, confidence levels, and remaining gaps.
 
 ## Stage 3 — Usage and boundary model
 
-Develop representative scenarios across different project types, maturity levels, devices, time budgets, energy levels, and risk.
+Purpose:
 
-Clarify:
+- test the emerging direction against realistic usage situations;
+- define the smallest useful universal core;
+- clarify what belongs to optional modules and what does not.
 
-- project-local versus reusable framework state;
-- project, subproject, workstream, and thread boundaries;
-- minimum useful core;
-- optional module triggers;
-- what requires external expertise.
+Scenario coverage must include variation in:
 
-Output: scenario set and architecture drivers.
+- project type;
+- maturity level;
+- software versus non-software scope;
+- device and context of use;
+- time and energy available;
+- uncertainty and risk level;
+- paused, resumed, contradictory, and abandoned work.
 
-Gate R2: approve the usage and boundary model.
+Boundary questions:
 
-## Stage 4 — Competing system architectures
+- what stays project-local;
+- what can be reused across projects without mixing state;
+- how project, subproject, workstream, and thread differ;
+- when optional modules activate;
+- which work requires human approval or external expertise.
 
-Create at least three coherent alternatives. Each must specify:
+Output for Gate R2:
 
-- process topology;
-- state and knowledge model;
-- interaction model;
+- scenario set;
+- boundary model;
+- architecture drivers;
+- unresolved trade-offs that still need comparison.
+
+## Stage 4 — Alternatives and comparison
+
+Purpose:
+
+- create multiple coherent system directions before committing to one;
+- compare them using agreed criteria rather than intuition alone.
+
+At least three alternatives must be described. Each alternative must cover:
+
+- transformation structure;
+- active work modes and loops;
+- state and knowledge model at a conceptual level;
+- guidance-layer behavior;
 - visual model;
-- adaptation mechanism;
-- governance and approval boundaries;
-- strengths, weaknesses, risks, and complexity.
+- module activation approach;
+- human, AI, and approval boundaries;
+- complexity, risk, and likely failure modes.
 
-Compare against agreed criteria. Preserve rejected options and rationale.
+Comparison criteria:
 
-Gate R3: Project Owner chooses or combines a direction.
+- universality across project types;
+- proportionality and cognitive load;
+- preservation of uncertainty, contradictions, and rejected paths;
+- clarity of next action and current context;
+- portability and provider independence;
+- ease of pause, handoff, and resume;
+- support for project-local durable state;
+- suitability for solo-owner workflows;
+- safety, privacy, security, and data-integrity implications;
+- reversibility if the direction proves wrong.
 
-## Stage 5 — Complete process and product architecture
+Output for Gate R3:
 
-Develop the chosen direction into:
+- compared alternatives;
+- preserved rejected alternatives with reasons;
+- recommendation with uncertainty made explicit.
 
-- lifecycle, loops, gates, and return paths;
-- work modes;
-- artifacts and object relationships;
-- evidence, assumption, and decision model;
-- continuity and quality-of-life behavior;
-- role and automation model;
-- visualization system;
-- measurement, risk, security, and governance.
+The Project Owner chooses, combines, or redirects at this gate.
 
-Output includes real visual artifacts suitable for review.
+## Stage 5 — Complete conception architecture
 
-Gate R4: architecture review.
+Purpose:
 
-## Stage 6 — Critical review
+- turn the selected direction into a complete reviewable concept package;
+- define the product concept without crossing into implementation architecture.
 
-Conduct red-team review from product, UX, knowledge management, decision quality, AI safety, security, operations, and solo-user usability perspectives.
+Required outputs for Gate R4:
 
-Identify:
+- product vision and non-goals;
+- end-to-end transformation spine with loops and return paths;
+- work modes and switching conditions;
+- project state concept;
+- assumption, evidence, and decision concept;
+- task and artifact concept;
+- quality-of-life and continuity concept;
+- human, AI, and external-expert responsibility boundaries;
+- module activation logic;
+- multi-project and subproject boundary model;
+- risk, governance, and quality principles.
 
-- unnecessary bureaucracy;
-- hidden autonomy;
-- false certainty;
-- missing failure and exit paths;
-- cognitive overload;
+## Stage 6 — Visual deliverables
+
+Visual artifacts are required, not optional polish.
+
+The minimum review set is:
+
+- lifecycle or transformation roadmap with return paths;
+- Current Context or Control Room concept;
+- assumption-evidence-decision flow;
+- project, subproject, workstream, and thread boundary view;
+- module activation logic view;
+- conceptual state/object relationship view;
+- human-versus-AI responsibility boundary view.
+
+Each visual should answer a distinct question. The work must not force every concern into one diagram.
+
+These visuals are reviewed as part of Gate R4, not invented afterward.
+
+## Stage 7 — Critical review
+
+Purpose:
+
+- challenge the concept before any implementation architecture is authorized.
+
+Review lenses:
+
+- product usefulness;
+- usability and cognitive load;
+- decision quality;
+- evidence discipline;
+- continuity and resumability;
+- AI safety and hidden autonomy;
+- security, privacy, and data integrity;
+- excessive process overhead;
 - provider lock-in;
-- untestable claims;
-- implementation assumptions disguised as requirements.
+- untestable or vague claims.
 
-Gate R5: Project Owner approves corrections.
+Output for Gate R5:
 
-## Stage 7 — Finalization and transition
+- findings;
+- disposition of each finding;
+- corrections made;
+- residual risks or unanswered questions.
 
-Finalize all required deliverables and a traceable decision history.
+## Stage 8 — Transition boundary
 
-Only after explicit Project Owner approval:
+Gate R6 is a separate human approval point.
 
-- define logical product architecture;
-- translate it into repository and software architecture;
-- choose an MVP and implementation sequence;
-- use the method to build the workbench itself;
-- record theory-versus-practice deviations.
+Only after explicit approval at R6 may work begin on:
 
-Gate R6: explicit authorization to enter implementation architecture. This is not implied by approving the concept.
+- logical product architecture in implementation-ready form;
+- repository and software architecture;
+- MVP definition;
+- staged implementation sequence;
+- actual software implementation.
 
-## Progress reporting
+Approval of research, synthesis, or conception does not imply approval to build.
 
-At every substantial handoff show:
+## Progress and uncertainty reporting
 
-- current stage and question;
-- completed and accepted outputs;
+Every substantial handoff must show:
+
+- active gate;
+- current stage and current question;
+- completed outputs;
+- accepted outputs;
 - provisional work;
-- decisions needed;
-- open assumptions and knowledge gaps;
-- next action;
-- active gate.
+- blockers;
+- decisions needed from the Project Owner;
+- open assumptions;
+- evidence gaps;
+- next proposed action.
+
+Use epistemic labels consistently:
+
+- Observation
+- Information
+- Evidence
+- Assumption
+- Interpretation
+- Proposal
+- Recommendation
+- Decision
+- Task
+- Result
+
+Rejected alternatives, contradictory evidence, and invalidated assumptions must remain visible rather than being summarized away.
+
+## Decision points reserved for the Project Owner
+
+The Project Owner decides at these material points:
+
+- R0: approve or amend the research and conception plan;
+- R1: accept the research synthesis as sufficient to continue;
+- R2: approve the usage and boundary model;
+- R3: choose, combine, or redirect the architectural direction;
+- R4: accept the complete concept package for final challenge;
+- R5: approve critical-review corrections;
+- R6: explicitly authorize implementation architecture.
+
+Reliable research should answer researchable questions before these decisions are escalated.
+
+## Approval request
+
+Please approve this revised research and conception plan for Gate R0, or specify what should be reduced, added, or restructured before approval.
