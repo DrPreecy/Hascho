@@ -1,4 +1,4 @@
-# Research and conception plan — revised draft for Gate R0 approval
+# Research and conception plan — approved at Gate R0
 
 ## Purpose
 
@@ -304,6 +304,12 @@ The Project Owner decides at these material points:
 
 Reliable research should answer researchable questions before these decisions are escalated.
 
-## Approval request
+## Approval status
 
-Please approve this revised research and conception plan for Gate R0, or specify what should be reduced, added, or restructured before approval.
+Approved by the Project Owner at Gate R0.
+
+Next step:
+
+- execute Stage 2 research synthesis;
+- record sourced findings in `project/RESEARCH-LOG.md`;
+- prepare a Gate R1 synthesis with tensions, gaps, and confidence.
